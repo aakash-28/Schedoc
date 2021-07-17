@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/logo_new_foreground"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".controller.VerifyPhone"></activity>
         <activity android:name=".controller.MyCalendarDoctorActivity" />
         <activity android:name=".controller.TestActivity" />
         <activity android:name=".controller.AppointementActivity" />

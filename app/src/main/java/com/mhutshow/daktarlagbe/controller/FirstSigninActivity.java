@@ -1,5 +1,6 @@
 package com.mhutshow.daktarlagbe.controller;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -11,7 +12,12 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 import com.mhutshow.daktarlagbe.R;
 import com.mhutshow.daktarlagbe.model.fireStoreApi.DoctorHelper;
 import com.mhutshow.daktarlagbe.model.fireStoreApi.PatientHelper;
@@ -26,7 +32,7 @@ public class FirstSigninActivity extends AppCompatActivity {
     private EditText teL;
     private EditText hospitalname;
     private Button btn;
-
+    FirebaseAuth fAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,16 +93,22 @@ public class FirstSigninActivity extends AppCompatActivity {
                 type = spinner.getSelectedItem().toString();
                 specialite = specialiteList.getSelectedItem().toString();
                 UserHelper.addUser(fullname, birtDay, tel, type);
+
+
+                
                 if (type.equals("Patient")) {
-                    PatientHelper.addPatient(fullname, "adress", tel);
+                    PatientHelper.addPatient(fullname, "address", tel);
                     System.out.println("Add patient " + fullname + " to patient collection");
 
                 } else {
                     DoctorHelper.addDoctor(fullname, hospitalName, tel, specialite);
                 }
-                Intent k = new Intent(FirstSigninActivity.this, MainActivity.class);
-                startActivity(k);
-            }
+
+                Intent phone = new Intent(FirstSigninActivity.this,VerifyPhone.class);
+                phone.putExtra("phone","+91"+tel);
+                startActivity(phone);
+                Log.d(TAG, "onSuccess: "+"+91"+ tel);
+        }
 
 
         });

@@ -7,9 +7,104 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:594905147969:android:c68d3cd74fe2ee378834c0",
+        "android_client_info": {
+          "package_name": "co.smallacademy.fullauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594905147969-ekm09q9dr0fen8cgtievlbk8qjju0ikk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6zLYrqkpzTVuXRpQCbXsNQaduHG0iN7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594905147969-ekm09q9dr0fen8cgtievlbk8qjju0ikk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:594905147969:android:ed956658464e1c998834c0",
         "android_client_info": {
           "package_name": "com.mhutshow.daktarlagbe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594905147969-knlsb3t98onescifjad8ckgjcqe9vo34.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mhutshow.daktarlagbe",
+            "certificate_hash": "559b5a35278ba2c568d07dca78cc42a2ba160173"
+          }
+        },
+        {
+          "client_id": "594905147969-ekm09q9dr0fen8cgtievlbk8qjju0ikk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6zLYrqkpzTVuXRpQCbXsNQaduHG0iN7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594905147969-ekm09q9dr0fen8cgtievlbk8qjju0ikk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594905147969:android:d73e05aaf51fa6a58834c0",
+        "android_client_info": {
+          "package_name": "me.obydul.firebasephoneverification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594905147969-ekm09q9dr0fen8cgtievlbk8qjju0ikk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6zLYrqkpzTVuXRpQCbXsNQaduHG0iN7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594905147969-ekm09q9dr0fen8cgtievlbk8qjju0ikk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594905147969:android:25d1b55b244bfb908834c0",
+        "android_client_info": {
+          "package_name": "net.smallacademy.otpauth"
         }
       },
       "oauth_client": [

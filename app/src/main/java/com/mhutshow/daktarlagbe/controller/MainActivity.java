@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken("594905147969-ekm09q9dr0fen8cgtievlbk8qjju0ikk.apps.googleusercontent.com")
                 .requestEmail()
                 .build();
        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);

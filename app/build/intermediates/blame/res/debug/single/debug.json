@@ -436,10 +436,6 @@
         "source": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\src\\main\\res\\layout\\activity_edit_profile_doctor.xml"
     },
     {
-        "merged": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
-        "source": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\src\\main\\res\\layout\\activity_register.xml"
-    },
-    {
         "merged": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.xml.flat",
         "source": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\src\\main\\res\\drawable\\ic_profile.xml"
     },
@@ -478,6 +474,10 @@
     {
         "merged": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_doctor.jpg.flat",
         "source": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\src\\main\\res\\drawable\\doctor.jpg"
+    },
+    {
+        "merged": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_verify_phone.xml.flat",
+        "source": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\src\\main\\res\\layout\\activity_verify_phone.xml"
     },
     {
         "merged": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\build\\intermediates\\res\\merged\\debug\\font_monoton.xml.flat",
@@ -598,6 +598,10 @@
     {
         "merged": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_anon_user_48dp.xml.flat",
         "source": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\src\\main\\res\\drawable\\ic_anon_user_48dp.xml"
+    },
+    {
+        "merged": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_o_t_p_verification.xml.flat",
+        "source": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\src\\main\\res\\layout\\activity_o_t_p_verification.xml"
     },
     {
         "merged": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_primary_gradient_green.xml.flat",

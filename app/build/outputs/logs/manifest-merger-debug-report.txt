@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-52:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\fff35b07c0eabfd5685432dd6f919ccf\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\c49d641c23617426335c31b8f870de4f\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\b2b8b75d6ae7c2fce37ef13b767dd64b\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -72,20 +72,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Aakash\.
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\2364e99305fe5618d87efc463c42428b\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\169f9ad8c95b216718a7418f16dea17e\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.michaelrocks:libphonenumber-android:8.10.16] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\98cca9afcac5df3feee265cc03ddf28a\jetified-libphonenumber-android-8.10.16\AndroidManifest.xml:2:1-11:12
-INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-51:12
+INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml
 		INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-51:12
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:11-69
@@ -112,7 +112,7 @@ ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:
 	android:name
 		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:7:22-77
 application
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:9:5-49:19
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:9:5-50:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\c49d641c23617426335c31b8f870de4f\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\c49d641c23617426335c31b8f870de4f\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
@@ -165,114 +165,118 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Aa
 		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
 		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:15:9-65
+activity#com.mhutshow.daktarlagbe.controller.VerifyPhone
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:16:9-69
+	android:name
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:16:19-57
 activity#com.mhutshow.daktarlagbe.controller.MyCalendarDoctorActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:16:9-73
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:17:9-73
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:16:19-70
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:17:19-70
 activity#com.mhutshow.daktarlagbe.controller.TestActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:17:9-61
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:18:9-61
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:17:19-58
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:18:19-58
 activity#com.mhutshow.daktarlagbe.controller.AppointementActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:18:9-69
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:19:9-69
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:18:19-66
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:19:19-66
 activity#com.mhutshow.daktarlagbe.controller.FicheInfo
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:19:9-58
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:20:9-58
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:19:19-55
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:20:19-55
 activity#com.mhutshow.daktarlagbe.controller.PatientInfoActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:20:9-68
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:21:9-68
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:20:19-65
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:21:19-65
 activity#com.mhutshow.daktarlagbe.controller.DossierMedical
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:21:9-63
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:22:9-63
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:21:19-60
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:22:19-60
 activity#com.mhutshow.daktarlagbe.controller.ChatActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:22:9-61
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:23:9-61
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:22:19-58
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:23:19-58
 activity#com.mhutshow.daktarlagbe.controller.PatientRequestPage
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:23:9-67
-	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:23:19-64
-activity#com.mhutshow.daktarlagbe.controller.DoctorHomeActivity
 ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:24:9-67
 	android:name
 		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:24:19-64
+activity#com.mhutshow.daktarlagbe.controller.DoctorHomeActivity
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:25:9-67
+	android:name
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:25:19-64
 activity#com.mhutshow.daktarlagbe.controller.EditProfileDoctorActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:25:9-74
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:26:9-74
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:25:19-71
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:26:19-71
 activity#com.mhutshow.daktarlagbe.controller.ConfirmedAppointmensActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:26:9-77
-	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:26:19-74
-activity#com.mhutshow.daktarlagbe.controller.PatientAppointementsActivity
 ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:27:9-77
 	android:name
 		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:27:19-74
+activity#com.mhutshow.daktarlagbe.controller.PatientAppointementsActivity
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:28:9-77
+	android:name
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:28:19-74
 activity#com.mhutshow.daktarlagbe.controller.ProfilePatientActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:28:9-71
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:29:9-71
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:28:19-68
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:29:19-68
 activity#com.mhutshow.daktarlagbe.controller.MyDoctorsAvtivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:29:9-66
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:30:9-66
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:29:19-63
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:30:19-63
 activity#com.mhutshow.daktarlagbe.controller.ProfileDoctorActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:30:9-70
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:31:9-70
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:30:19-67
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:31:19-67
 activity#com.mhutshow.daktarlagbe.controller.EditProfilePatientActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:31:9-75
-	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:31:19-72
-activity#com.mhutshow.daktarlagbe.controller.DoctorAppointementActivity
 ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:32:9-75
 	android:name
 		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:32:19-72
+activity#com.mhutshow.daktarlagbe.controller.DoctorAppointementActivity
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:33:9-75
+	android:name
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:33:19-72
 activity#com.mhutshow.daktarlagbe.controller.FicheActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:33:9-62
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:34:9-62
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:33:19-59
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:34:19-59
 activity#com.mhutshow.daktarlagbe.controller.MyPatientsActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:34:9-67
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:35:9-67
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:34:19-64
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:35:19-64
 activity#com.mhutshow.daktarlagbe.controller.SearchPatActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:35:9-66
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:36:9-66
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:35:19-63
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:36:19-63
 activity#com.mhutshow.daktarlagbe.controller.FirstSigninActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:36:9-68
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:37:9-68
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:36:19-65
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:37:19-65
 activity#com.mhutshow.daktarlagbe.controller.HomeActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:37:9-61
-	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:37:19-58
-activity#com.mhutshow.daktarlagbe.controller.MainActivity
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:38:9-44:20
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:38:9-61
 	android:name
 		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:38:19-58
+activity#com.mhutshow.daktarlagbe.controller.MainActivity
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:39:9-45:20
+	android:name
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:39:19-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:39:13-43:29
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:40:13-44:29
 action#android.intent.action.MAIN
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:40:17-69
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:40:25-66
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:42:17-77
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:43:17-77
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:42:27-74
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:43:27-74
 meta-data#preloaded_fonts
-ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:46:9-48:57
+ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:47:9-49:57
 	android:resource
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:48:13-54
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:49:13-54
 	android:name
-		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:47:13-43
+		ADDED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:48:13-43
 uses-sdk
 INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml

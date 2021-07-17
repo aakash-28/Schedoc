@@ -2003,7 +2003,6 @@ id callBtn
 id cancel_action
 id cancel_button
 id card_time_slot
-id ccp
 id center
 id center_horizontal
 id center_vertical
@@ -2017,7 +2016,6 @@ id clear_text
 id click_consumer_rly
 id clip_horizontal
 id clip_vertical
-id codeEnter
 id code_tv
 id collapseActionView
 id confirm_button
@@ -2197,7 +2195,6 @@ id name
 id nameText
 id navigation_header_container
 id never
-id nextBtn
 id noScroll
 id no_result_tv
 id none
@@ -2208,6 +2205,8 @@ id notification_main_column_container
 id off
 id on
 id onlineStatut
+id optNumberSix
+id optNumberTwo
 id option_Dentiste
 id option_ORL
 id option_Ophtalmologue
@@ -2216,6 +2215,10 @@ id option_Radiologue
 id option_Rhumatologue
 id option_all
 id option_general
+id otpNumberFive
+id otpNumberFour
+id otpNumberOne
+id otpNumberThree
 id outline
 id packed
 id parallax
@@ -2250,7 +2253,7 @@ id radio
 id recycle_time_slot
 id recycle_time_slot2
 id relativeLayout
-id resendOtpBtn
+id resendOTP
 id right
 id right_icon
 id right_side
@@ -2306,7 +2309,6 @@ id src_in
 id src_over
 id standard
 id start
-id state
 id status_bar_latest_event_content
 id step_view
 id stretch
@@ -2378,6 +2380,7 @@ id up
 id update
 id updateInfoBtn
 id useLogo
+id verifyPhoneBTn
 id view
 id view_offset_helper
 id view_pager
@@ -2466,14 +2469,15 @@ layout activity_main
 layout activity_my_calendar_doctor
 layout activity_my_doctors
 layout activity_my_patients
+layout activity_o_t_p_verification
 layout activity_patient_appointments
 layout activity_patient_info
 layout activity_patient_request_page
 layout activity_profile_doctor
 layout activity_profile_info
-layout activity_register
 layout activity_search_pat
 layout activity_test
+layout activity_verify_phone
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout confirmed_appointements_item
