@@ -6,231 +6,305 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml
+8-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml
+9-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CALL_PHONE" />
-11-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:5:5-69
-11-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:5:22-66
+11-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:5:5-69
+11-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:5:22-66
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:6:5-67
-12-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:6:22-64
+12-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:6:5-67
+12-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:7:5-80
-13-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:7:22-77
-14
-15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->[com.google.firebase:firebase-database:19.2.1] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\b008b8b9b3982b698d47055bc7edc6cd\jetified-firebase-database-19.2.1\AndroidManifest.xml:25:5-79
-17-->[com.google.firebase:firebase-database:19.2.1] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\b008b8b9b3982b698d47055bc7edc6cd\jetified-firebase-database-19.2.1\AndroidManifest.xml:25:22-76
-18
-19    <application
-19-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:9:5-49:19
-20        android:name="androidx.multidex.MultiDexApplication"
-21        android:allowBackup="true"
-21-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:10:9-35
-22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.1.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\b15d19a3238f95e6f73f6567dc460d26\core-1.1.0\AndroidManifest.xml:24:18-86
-23        android:debuggable="true"
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:11:9-43
-25        android:label="@string/app_name"
-25-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:12:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:13:9-54
-27        android:supportsRtl="true"
-27-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:14:9-35
-28        android:testOnly="true"
-29        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-29-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:15:9-65
-30        <activity android:name="com.mhutshow.daktarlagbe.controller.MyCalendarDoctorActivity" />
-30-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:16:9-106
-30-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:16:19-94
-31        <activity android:name="com.mhutshow.daktarlagbe.controller.TestActivity" />
-31-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:17:9-85
-31-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:17:19-82
-32        <activity android:name="com.mhutshow.daktarlagbe.controller.AppointementActivity" />
-32-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:18:9-93
-32-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:18:19-90
-33        <activity android:name="com.mhutshow.daktarlagbe.controller.FicheInfo" />
-33-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:19:9-82
-33-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:19:19-79
-34        <activity android:name="com.mhutshow.daktarlagbe.controller.PatientInfoActivity" />
-34-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:20:9-92
-34-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:20:19-89
-35        <activity android:name="com.mhutshow.daktarlagbe.controller.DossierMedical" />
-35-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:21:9-87
-35-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:21:19-84
-36        <activity android:name="com.mhutshow.daktarlagbe.controller.ChatActivity" />
-36-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:22:9-85
-36-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:22:19-82
-37        <activity android:name="com.mhutshow.daktarlagbe.controller.PatientRequestPage" />
-37-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:23:9-91
-37-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:23:19-88
-38        <activity android:name="com.mhutshow.daktarlagbe.controller.DoctorHomeActivity" />
-38-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:24:9-91
-38-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:24:19-88
-39        <activity android:name="com.mhutshow.daktarlagbe.controller.EditProfileDoctorActivity" />
-39-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:25:9-98
-39-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:25:19-95
-40        <activity android:name="com.mhutshow.daktarlagbe.controller.ConfirmedAppointmensActivity" />
-40-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:26:9-101
-40-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:26:19-98
-41        <activity android:name="com.mhutshow.daktarlagbe.controller.PatientAppointementsActivity" />
-41-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:27:9-101
-41-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:27:19-98
-42        <activity android:name="com.mhutshow.daktarlagbe.controller.ProfilePatientActivity" />
-42-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:28:9-95
-42-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:28:19-92
-43        <activity android:name="com.mhutshow.daktarlagbe.controller.MyDoctorsAvtivity" />
-43-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:29:9-90
-43-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:29:19-87
-44        <activity android:name="com.mhutshow.daktarlagbe.controller.ProfileDoctorActivity" />
-44-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:30:9-94
-44-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:30:19-91
-45        <activity android:name="com.mhutshow.daktarlagbe.controller.EditProfilePatientActivity" />
-45-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:31:9-99
-45-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:31:19-96
-46        <activity android:name="com.mhutshow.daktarlagbe.controller.DoctorAppointementActivity" />
-46-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:32:9-99
-46-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:32:19-96
-47        <activity android:name="com.mhutshow.daktarlagbe.controller.FicheActivity" />
-47-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:33:9-86
-47-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:33:19-83
-48        <activity android:name="com.mhutshow.daktarlagbe.controller.MyPatientsActivity" />
-48-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:34:9-91
-48-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:34:19-88
-49        <activity android:name="com.mhutshow.daktarlagbe.controller.SearchPatActivity" />
-49-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:35:9-90
-49-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:35:19-87
-50        <activity android:name="com.mhutshow.daktarlagbe.controller.FirstSigninActivity" />
-50-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:36:9-92
-50-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:36:19-89
-51        <activity android:name="com.mhutshow.daktarlagbe.controller.HomeActivity" />
-51-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:37:9-85
-51-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:37:19-82
-52        <activity android:name="com.mhutshow.daktarlagbe.controller.MainActivity" >
-52-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:38:9-44:20
-52-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:38:19-82
-53            <intent-filter>
-53-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:39:13-43:29
-54                <action android:name="android.intent.action.MAIN" />
-54-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:40:17-69
-54-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:40:25-66
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:42:17-77
-56-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:42:27-74
-57            </intent-filter>
-58        </activity>
-59
-60        <meta-data
-60-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:46:9-48:57
-61            android:name="preloaded_fonts"
-61-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:47:13-43
-62            android:resource="@array/preloaded_fonts" />
-62-->C:\Users\mahed\AndroidStudioProjects\DaktarLagbe\app\src\main\AndroidManifest.xml:48:13-54
-63
-64        <activity
-64-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0cb6d55828f12a02a3e2267b63cb1e4a\jetified-firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
-65            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-65-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0cb6d55828f12a02a3e2267b63cb1e4a\jetified-firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
-66            android:excludeFromRecents="true"
-66-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0cb6d55828f12a02a3e2267b63cb1e4a\jetified-firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
-67            android:exported="true"
-67-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0cb6d55828f12a02a3e2267b63cb1e4a\jetified-firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
-68            android:launchMode="singleTask"
-68-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0cb6d55828f12a02a3e2267b63cb1e4a\jetified-firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
-69            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-69-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0cb6d55828f12a02a3e2267b63cb1e4a\jetified-firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
-70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-70-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0cb6d55828f12a02a3e2267b63cb1e4a\jetified-firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
-71
-72        <service
-72-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0cb6d55828f12a02a3e2267b63cb1e4a\jetified-firebase-auth-19.3.0\AndroidManifest.xml:33:9-39:19
-73            android:name="com.google.firebase.components.ComponentDiscoveryService"
-73-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0cb6d55828f12a02a3e2267b63cb1e4a\jetified-firebase-auth-19.3.0\AndroidManifest.xml:34:13-84
-74            android:directBootAware="true"
-74-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\6a789b1a3a93a0034eb31d2eb1905060\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-75            android:exported="false" >
-75-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0cb6d55828f12a02a3e2267b63cb1e4a\jetified-firebase-auth-19.3.0\AndroidManifest.xml:35:13-37
-76            <meta-data
-76-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0cb6d55828f12a02a3e2267b63cb1e4a\jetified-firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
-77                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-77-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0cb6d55828f12a02a3e2267b63cb1e4a\jetified-firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
-78                android:value="com.google.firebase.components.ComponentRegistrar" />
-78-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0cb6d55828f12a02a3e2267b63cb1e4a\jetified-firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
-79            <meta-data
-79-->[com.google.firebase:firebase-database:19.2.1] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\b008b8b9b3982b698d47055bc7edc6cd\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
-80                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-80-->[com.google.firebase:firebase-database:19.2.1] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\b008b8b9b3982b698d47055bc7edc6cd\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
-81                android:value="com.google.firebase.components.ComponentRegistrar" />
-81-->[com.google.firebase:firebase-database:19.2.1] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\b008b8b9b3982b698d47055bc7edc6cd\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
-82            <meta-data
-82-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\74c962566527526d3877c66338840869\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:20:13-22:85
-83                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-83-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\74c962566527526d3877c66338840869\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:21:17-111
-84                android:value="com.google.firebase.components.ComponentRegistrar" />
-84-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\74c962566527526d3877c66338840869\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:22:17-82
-85            <meta-data
-85-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\6447d85434246d26d50dbce515814287\jetified-firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
-86                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-86-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\6447d85434246d26d50dbce515814287\jetified-firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
-87                android:value="com.google.firebase.components.ComponentRegistrar" />
-87-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\6447d85434246d26d50dbce515814287\jetified-firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
-88        </service>
-89
-90        <activity
-90-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\eb9a1a20cdf5357a83435a36e46ba3a0\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
-91            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-91-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\eb9a1a20cdf5357a83435a36e46ba3a0\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
-92            android:excludeFromRecents="true"
-92-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\eb9a1a20cdf5357a83435a36e46ba3a0\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
-93            android:exported="false"
-93-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\eb9a1a20cdf5357a83435a36e46ba3a0\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
-94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-94-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\eb9a1a20cdf5357a83435a36e46ba3a0\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
-95        <!--
-96            Service handling Google Sign-In user revocation. For apps that do not integrate with
-97            Google Sign-In, this service will never be started.
-98        -->
-99        <service
-99-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\eb9a1a20cdf5357a83435a36e46ba3a0\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
-100            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-100-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\eb9a1a20cdf5357a83435a36e46ba3a0\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
-101            android:exported="true"
-101-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\eb9a1a20cdf5357a83435a36e46ba3a0\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
-102            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-102-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\eb9a1a20cdf5357a83435a36e46ba3a0\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
-103
-104        <activity
-104-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\3e896153f0fc5024c88e09c06f65a2ca\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-105            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-105-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\3e896153f0fc5024c88e09c06f65a2ca\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-106            android:exported="false"
-106-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\3e896153f0fc5024c88e09c06f65a2ca\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-107-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\3e896153f0fc5024c88e09c06f65a2ca\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-108
-109        <provider
-109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\6a789b1a3a93a0034eb31d2eb1905060\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-110            android:name="com.google.firebase.provider.FirebaseInitProvider"
-110-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\6a789b1a3a93a0034eb31d2eb1905060\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-111            android:authorities="com.mhutshow.daktarlagbe.firebaseinitprovider"
-111-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\6a789b1a3a93a0034eb31d2eb1905060\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
-112            android:exported="false"
-112-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\6a789b1a3a93a0034eb31d2eb1905060\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-113            android:initOrder="100" />
-113-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\6a789b1a3a93a0034eb31d2eb1905060\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
-114
-115        <meta-data
-115-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0b329b2bc08f8fb1ad727cb09d52ba62\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
-116            android:name="com.google.android.gms.version"
-116-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0b329b2bc08f8fb1ad727cb09d52ba62\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
-117            android:value="@integer/google_play_services_version" />
-117-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\mahed\.gradle\caches\transforms-2\files-2.1\0b329b2bc08f8fb1ad727cb09d52ba62\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
-118    </application>
-119
-120</manifest>
+13-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:7:5-80
+13-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+14-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+15
+16    <application
+16-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:9:5-49:19
+17        android:name="androidx.multidex.MultiDexApplication"
+18        android:allowBackup="true"
+18-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:10:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\728d99cdffd358e726ee143b0dbf362f\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/logo_new_foreground"
+21-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:11:9-51
+22        android:label="@string/app_name"
+22-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:12:9-41
+23        android:roundIcon="@mipmap/logo_new_foreground"
+23-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:13:9-56
+24        android:supportsRtl="true"
+24-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:14:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+26-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:15:9-65
+27        <activity android:name="com.mhutshow.daktarlagbe.controller.MyCalendarDoctorActivity" />
+27-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:16:9-73
+27-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:16:19-70
+28        <activity android:name="com.mhutshow.daktarlagbe.controller.TestActivity" />
+28-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:17:9-61
+28-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:17:19-58
+29        <activity android:name="com.mhutshow.daktarlagbe.controller.AppointementActivity" />
+29-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:18:9-69
+29-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:18:19-66
+30        <activity android:name="com.mhutshow.daktarlagbe.controller.FicheInfo" />
+30-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:19:9-58
+30-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:19:19-55
+31        <activity android:name="com.mhutshow.daktarlagbe.controller.PatientInfoActivity" />
+31-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:20:9-68
+31-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:20:19-65
+32        <activity android:name="com.mhutshow.daktarlagbe.controller.DossierMedical" />
+32-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:21:9-63
+32-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:21:19-60
+33        <activity android:name="com.mhutshow.daktarlagbe.controller.ChatActivity" />
+33-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:22:9-61
+33-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:22:19-58
+34        <activity android:name="com.mhutshow.daktarlagbe.controller.PatientRequestPage" />
+34-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:23:9-67
+34-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:23:19-64
+35        <activity android:name="com.mhutshow.daktarlagbe.controller.DoctorHomeActivity" />
+35-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:24:9-67
+35-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:24:19-64
+36        <activity android:name="com.mhutshow.daktarlagbe.controller.EditProfileDoctorActivity" />
+36-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:25:9-74
+36-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:25:19-71
+37        <activity android:name="com.mhutshow.daktarlagbe.controller.ConfirmedAppointmensActivity" />
+37-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:26:9-77
+37-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:26:19-74
+38        <activity android:name="com.mhutshow.daktarlagbe.controller.PatientAppointementsActivity" />
+38-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:27:9-77
+38-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:27:19-74
+39        <activity android:name="com.mhutshow.daktarlagbe.controller.ProfilePatientActivity" />
+39-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:28:9-71
+39-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:28:19-68
+40        <activity android:name="com.mhutshow.daktarlagbe.controller.MyDoctorsAvtivity" />
+40-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:29:9-66
+40-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:29:19-63
+41        <activity android:name="com.mhutshow.daktarlagbe.controller.ProfileDoctorActivity" />
+41-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:30:9-70
+41-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:30:19-67
+42        <activity android:name="com.mhutshow.daktarlagbe.controller.EditProfilePatientActivity" />
+42-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:31:9-75
+42-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:31:19-72
+43        <activity android:name="com.mhutshow.daktarlagbe.controller.DoctorAppointementActivity" />
+43-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:32:9-75
+43-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:32:19-72
+44        <activity android:name="com.mhutshow.daktarlagbe.controller.FicheActivity" />
+44-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:33:9-62
+44-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:33:19-59
+45        <activity android:name="com.mhutshow.daktarlagbe.controller.MyPatientsActivity" />
+45-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:34:9-67
+45-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:34:19-64
+46        <activity android:name="com.mhutshow.daktarlagbe.controller.SearchPatActivity" />
+46-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:35:9-66
+46-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:35:19-63
+47        <activity android:name="com.mhutshow.daktarlagbe.controller.FirstSigninActivity" />
+47-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:36:9-68
+47-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:36:19-65
+48        <activity android:name="com.mhutshow.daktarlagbe.controller.HomeActivity" />
+48-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:37:9-61
+48-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:37:19-58
+49        <activity android:name="com.mhutshow.daktarlagbe.controller.MainActivity" >
+49-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:38:9-44:20
+49-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:38:19-58
+50            <intent-filter>
+50-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:39:13-43:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:40:17-69
+51-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:40:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:42:17-77
+53-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:42:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <meta-data
+57-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:46:9-48:57
+58            android:name="preloaded_fonts"
+58-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:47:13-43
+59            android:resource="@array/preloaded_fonts" />
+59-->E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:48:13-54
+60
+61        <activity
+61-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+62            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+62-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+63            android:excludeFromRecents="true"
+63-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+64            android:exported="true"
+64-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+65            android:launchMode="singleTask"
+65-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+66-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+67            <intent-filter>
+67-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+68                <action android:name="android.intent.action.VIEW" />
+68-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+68-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+70-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+71                <category android:name="android.intent.category.BROWSABLE" />
+71-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+71-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+72
+73                <data
+73-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+74                    android:host="firebase.auth"
+74-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+75                    android:path="/"
+75-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+76                    android:scheme="genericidp" />
+76-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+80            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+81            android:excludeFromRecents="true"
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+82            android:exported="true"
+82-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+83            android:launchMode="singleTask"
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+85            <intent-filter>
+85-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+86                <action android:name="android.intent.action.VIEW" />
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+89                <category android:name="android.intent.category.BROWSABLE" />
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+90
+91                <data
+91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+92                    android:host="firebase.auth"
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+93                    android:path="/"
+93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+94                    android:scheme="recaptcha" />
+94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+95            </intent-filter>
+96        </activity>
+97
+98        <service
+98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+99            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+100            android:enabled="true"
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+101            android:exported="false" >
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+102            <intent-filter>
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+103                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+103-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+103-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+104
+105                <category android:name="android.intent.category.DEFAULT" />
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+106            </intent-filter>
+107        </service>
+108        <service
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+109            android:name="com.google.firebase.components.ComponentDiscoveryService"
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\7cad0847dba15163c17dc89dbdaebef4\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+111            android:exported="false" >
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+112            <meta-data
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+113                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\8e9d0801f0e730265cabefd85345c82a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\f9b0ce3ab3809f9a9795da9d93650632\jetified-firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+116                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+116-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\f9b0ce3ab3809f9a9795da9d93650632\jetified-firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\f9b0ce3ab3809f9a9795da9d93650632\jetified-firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-firestore:23.0.2] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\44620988f69b4e14b39b64d767254956\jetified-firebase-firestore-23.0.2\AndroidManifest.xml:20:13-22:85
+119                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+119-->[com.google.firebase:firebase-firestore:23.0.2] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\44620988f69b4e14b39b64d767254956\jetified-firebase-firestore-23.0.2\AndroidManifest.xml:21:17-111
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-firestore:23.0.2] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\44620988f69b4e14b39b64d767254956\jetified-firebase-firestore-23.0.2\AndroidManifest.xml:22:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\f714f1df7b5e01cb76335e44482a75d4\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+122                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+122-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\f714f1df7b5e01cb76335e44482a75d4\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\f714f1df7b5e01cb76335e44482a75d4\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+124        </service>
+125
+126        <activity
+126-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\824c64e1a61b8992b9048b3af92f9cf5\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+127            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+127-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\824c64e1a61b8992b9048b3af92f9cf5\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+128            android:excludeFromRecents="true"
+128-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\824c64e1a61b8992b9048b3af92f9cf5\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\824c64e1a61b8992b9048b3af92f9cf5\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\824c64e1a61b8992b9048b3af92f9cf5\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+131        <!--
+132            Service handling Google Sign-In user revocation. For apps that do not integrate with
+133            Google Sign-In, this service will never be started.
+134        -->
+135        <service
+135-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\824c64e1a61b8992b9048b3af92f9cf5\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+136            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+136-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\824c64e1a61b8992b9048b3af92f9cf5\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+137            android:exported="true"
+137-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\824c64e1a61b8992b9048b3af92f9cf5\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+138            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+138-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\824c64e1a61b8992b9048b3af92f9cf5\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+139
+140        <activity
+140-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\b0931a379465ac668d80245ca2891d6a\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+141            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+141-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\b0931a379465ac668d80245ca2891d6a\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+142            android:exported="false"
+142-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\b0931a379465ac668d80245ca2891d6a\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+143            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\b0931a379465ac668d80245ca2891d6a\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+144
+145        <provider
+145-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\7cad0847dba15163c17dc89dbdaebef4\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+146            android:name="com.google.firebase.provider.FirebaseInitProvider"
+146-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\7cad0847dba15163c17dc89dbdaebef4\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+147            android:authorities="com.mhutshow.daktarlagbe.firebaseinitprovider"
+147-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\7cad0847dba15163c17dc89dbdaebef4\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+148            android:directBootAware="true"
+148-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\7cad0847dba15163c17dc89dbdaebef4\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+149            android:exported="false"
+149-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\7cad0847dba15163c17dc89dbdaebef4\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+150            android:initOrder="100" />
+150-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\7cad0847dba15163c17dc89dbdaebef4\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+151
+152        <meta-data
+152-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\2c880001697244bc3423963d87043180\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+153            android:name="com.google.android.gms.version"
+153-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\2c880001697244bc3423963d87043180\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+154            android:value="@integer/google_play_services_version" />
+154-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\2c880001697244bc3423963d87043180\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+155    </application>
+156
+157</manifest>

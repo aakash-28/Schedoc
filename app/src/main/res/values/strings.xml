@@ -1,38 +1,38 @@
 <resources>
-    <string name="app_name">Daktar Lagbe</string>
+    <string name="app_name">Schedoc</string>
     <string name="main_activity_description">
-Just chat with your mentors</string>
+The scheduling app</string>
 
-    <string name="login">Connexion</string>
+    <string name="login">Connected</string>
     <string name="chat_with_mentor">
 Chat with a mentor</string>
 
     <!-- NOTIFICATION SERVICE -->
     <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
-    <string name="notification_title">"Vous avez reçu une notification"</string>
+    <string name="notification_title">"You have received a notification"</string>
 
     <!-- MAIN ACTIVITY -->
-    <string name="error_not_connected">Vous devez vous connecter !</string>
-    <string name="error_authentication_canceled">Authentification annulée&#8230;</string>
-    <string name="error_no_internet">Aucune connexion internet !</string>
-    <string name="error_unknown_error">Une erreur inconnue s\'est produite&#8230;</string>
-    <string name="connection_succeed">Authentification réussie !</string>
-    <string name="button_login_text_logged">Afficher le profil</string>
-    <string name="button_login_text_not_logged">Connexion</string>
+    <string name="error_not_connected">Database not connected</string>
+    <string name="error_authentication_canceled">Authentication cancelled&#8230;</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_unknown_error">Unknown error&#8230;</string>
+    <string name="connection_succeed">Authentication success</string>
+    <string name="button_login_text_logged">Display Profile</string>
+    <string name="button_login_text_not_logged">Log in</string>
 
     <!-- LOGIN ACTIVITY -->
-    <string name="toolbar_title_login_activity">Votre Profil</string>
-    <string name="text_input_username">Nom d\'utilisateur</string>
-    <string name="text_view_email">Adresse email :</string>
-    <string name="button_update_account">Mettre à jour le nom d\'utilisateur</string>
-    <string name="button_delete_account">Supprimer mon compte</string>
-    <string name="button_sign_out_account">Déconnexion</string>
-    <string name="info_no_email_found">Auncune adresse email</string>
-    <string name="info_no_username_found">Aucun nom d\'utilisateur</string>
-    <string name="popup_message_confirmation_delete_account">Es-tu sûr(e) de vouloir supprimer ton compte ?</string>
-    <string name="popup_message_choice_yes">Oui !</string>
-    <string name="popup_message_choice_no">Non</string>
-    <string name="check_box_is_mentor">Etes-vous un mentor ?</string>
+    <string name="toolbar_title_login_activity">Profile</string>
+    <string name="text_input_username">Username</string>
+    <string name="text_view_email">Email</string>
+    <string name="button_update_account">Update username</string>
+    <string name="button_delete_account">Delete Account</string>
+    <string name="button_sign_out_account">Logout</string>
+    <string name="info_no_email_found">Email not found</string>
+    <string name="info_no_username_found">Username not found</string>
+    <string name="popup_message_confirmation_delete_account">Are you sure you want to delete your account?</string>
+    <string name="popup_message_choice_yes">Yes</string>
+    <string name="popup_message_choice_no">No</string>
+    <string name="check_box_is_mentor">Arey you a mentor?</string>
 
     <!-- MENTOR_CHAT ACTIVITY -->
     <string name="toolbar_title_mentor_chat_activity">Chats de discussions</string>
@@ -62,13 +62,18 @@ Chat with a mentor</string>
     </string-array>
 
     <string-array name="specialite_spinner">
-        <item>Dentiste</item>
-        <item>Médecin général</item>
-        <item>ORL</item>
-        <item>Ophtalmologue</item>
-        <item>Pédiatre</item>
-        <item>Radiologue</item>
-        <item>Rhumatologue</item>
+        <item>Cardiologist</item>
+        <item>Dentist</item>
+        <item>General Medicine</item>
+        <item>Nephrologist</item>
+        <item>Neurologist</item>
+        <item>Oncologist</item>
+        <item>Ophtalmologist</item>
+        <item>Physician</item>
+        <item>Pediatrician</item>
+        <item>Pulmonologist</item>
+        <item>Radiologist</item>
+        <item>Rhumatologist</item>
     </string-array>
 
     <string-array name="blood_spinner">

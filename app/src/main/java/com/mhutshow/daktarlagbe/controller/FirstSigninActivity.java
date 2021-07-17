@@ -24,6 +24,7 @@ public class FirstSigninActivity extends AppCompatActivity {
     private EditText fullName;
     private EditText birthday;
     private EditText teL;
+    private EditText hospitalname;
     private Button btn;
 
     @Override
@@ -34,6 +35,7 @@ public class FirstSigninActivity extends AppCompatActivity {
         fullName = (EditText) findViewById(R.id.firstSignFullName);
         birthday = (EditText) findViewById(R.id.firstSignBirthDay);
         teL = (EditText) findViewById(R.id.firstSignTel);
+        hospitalname = (EditText) findViewById(R.id.hospitalName);
 
         final Spinner spinner = (Spinner) findViewById(R.id.spinner);
         // Create an ArrayAdapter using the string array and a default spinner layout
@@ -58,16 +60,20 @@ public class FirstSigninActivity extends AppCompatActivity {
                 Log.e(TAG, "onItemSelected:" + selected);
                 if (selected.equals("Doctor")) {
                     specialiteList.setVisibility(View.VISIBLE);
+                    hospitalname.setVisibility(View.VISIBLE);
                 } else {
                     specialiteList.setVisibility(View.GONE);
+                    hospitalname.setVisibility(View.GONE);
                 }
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
                 specialiteList.setVisibility(View.GONE);
+                hospitalname.setVisibility(View.GONE);
             }
         });
+
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

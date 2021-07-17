@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,6 +34,8 @@ import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import org.w3c.dom.Text;
+
 public class MainActivity extends AppCompatActivity {
     private static int RC_SIGN_IN = 100;
     private FirebaseAuth mAuth;
@@ -43,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
     private Button creatBtn;
     private EditText secondPass;
     private EditText confirme;
+    private TextView donthavetext;
+    private TextView textViewLogin;
+     ProgressBar progressBar;
     SignInButton signInButton;
     FirebaseFirestore  db = FirebaseFirestore.getInstance();
     private CollectionReference UsersRef = db.collection("User");
@@ -64,8 +70,10 @@ public class MainActivity extends AppCompatActivity {
         confirme = (EditText)findViewById(R.id.editText3);
         confirme.setVisibility(View.INVISIBLE);
         signInButton = findViewById(R.id.sign_in_button);
-
+        donthavetext = (TextView) findViewById(R.id.donthavetext);
+        textViewLogin = (TextView) findViewById(R.id.textViewLogin);
         TextView textView = (TextView) signInButton.getChildAt(0);
+        progressBar =(ProgressBar) findViewById(R.id.progressBar);
         textView.setText("Or Sign in with Google");
 
         emailText= (EditText) findViewById(R.id.editText2);
@@ -82,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
                 String password=passwordText.getText().toString();
                 String confirmPass = secondPass.getText().toString();
                 if(!email.isEmpty() && !password.isEmpty() && password.equals(confirmPass)){
+                    progressBar.setVisibility(View.VISIBLE);
                 mAuth.createUserWithEmailAndPassword(email, password)
                         .addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
                             @Override
@@ -92,6 +101,7 @@ public class MainActivity extends AppCompatActivity {
                                     FirebaseUser user = mAuth.getCurrentUser();
                                     updateUI(user);
                                 } else {
+                                    progressBar.setVisibility(View.GONE);
                                     // If sign in fails, display a message to the user.
                                     Log.w("TAG", "createUserWithEmail:failure", task.getException());
                                     Toast.makeText(MainActivity.this, "Authentication failed.",
@@ -103,10 +113,10 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
             }else{
-                    Toast.makeText(MainActivity.this, "vous devez rensegner toutes les champs",
+                    Toast.makeText(MainActivity.this, "Please fill in all the fields",
                             Toast.LENGTH_SHORT).show();
                     if(!password.equals(confirmPass)){
-                        Toast.makeText(MainActivity.this, "Confirm pass don't match password",
+                        Toast.makeText(MainActivity.this, "Confirm password does not match",
                                 Toast.LENGTH_SHORT).show();
                     }
                 }
@@ -118,7 +128,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String email=emailText.getText().toString();
                 String password=passwordText.getText().toString();
-                if(!email.isEmpty() && !password.isEmpty() ){
+                if(!email.isEmpty() && !password.isEmpty() ) {
+                    progressBar.setVisibility(View.VISIBLE);
                 mAuth.signInWithEmailAndPassword(email, password)
                         .addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
                             @Override
@@ -129,6 +140,7 @@ public class MainActivity extends AppCompatActivity {
                                     FirebaseUser user = mAuth.getCurrentUser();
                                     updateUI(user);
                                 } else {
+                                    progressBar.setVisibility(View.GONE);
                                     // If sign in fails, display a message to the user.
                                     Log.w("TAG", "signInWithEmail:failure", task.getException());
                                     Toast.makeText(MainActivity.this, "Authentication failed.",
@@ -140,7 +152,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
             }else{
-                    Toast.makeText(MainActivity.this, "vous devez rensegnier toutes les champs",
+                    Toast.makeText(MainActivity.this, "Please fill in all the fields",
                             Toast.LENGTH_SHORT).show();
                 }
             }
@@ -156,6 +168,8 @@ public class MainActivity extends AppCompatActivity {
                     signUpBtn.setVisibility(View.VISIBLE);
                     loginBtn.setVisibility(View.INVISIBLE);
                     creatBtn.setText("Back to login");
+                    textViewLogin.setText("Sign up");
+                    donthavetext.setVisibility(View.GONE);
                     signInButton.setVisibility(View.GONE);
                 }
                 else{
@@ -163,6 +177,8 @@ public class MainActivity extends AppCompatActivity {
                     signUpBtn.setVisibility(View.INVISIBLE);
                     loginBtn.setVisibility(View.VISIBLE);
                     creatBtn.setText("Create Account");
+                    textViewLogin.setText("Login");
+                    donthavetext.setVisibility(View.VISIBLE);
                     signInButton.setVisibility(View.VISIBLE);
                 }
             }

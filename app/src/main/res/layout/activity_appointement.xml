@@ -10,7 +10,7 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Choose your appointement time :"
+        android:text="Please choose a preferred time :"
         android:textSize="@dimen/default_title_size" />
 
     <ScrollView

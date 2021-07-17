@@ -832,6 +832,10 @@ color bright_foreground_inverse_material_dark
 color bright_foreground_inverse_material_light
 color bright_foreground_material_dark
 color bright_foreground_material_light
+color browser_actions_bg_grey
+color browser_actions_divider_color
+color browser_actions_text_color
+color browser_actions_title_color
 color button_material_dark
 color button_material_light
 color cardview_dark_background
@@ -1091,6 +1095,8 @@ dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
 dimen appcompat_dialog_background_inset
+dimen browser_actions_context_menu_max_width
+dimen browser_actions_context_menu_min_padding
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -1442,6 +1448,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable addappointment
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -1458,6 +1465,7 @@ drawable button_home
 drawable button_radius_accent_color
 drawable button_radius_primary_color
 drawable button_success
+drawable calendaricon
 drawable circle
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -1486,6 +1494,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dmax_spots_spot
 drawable doctor
+drawable doctorimg
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable healthy
@@ -1540,10 +1549,13 @@ drawable ic_search
 drawable ic_search_white
 drawable ic_search_white_24dp
 drawable img
+drawable laoderbg
 drawable link_background
 drawable loading_shape
 drawable logo
+drawable logo_new_background
 drawable main_header_selector
+drawable mainbg
 drawable medcal_logo
 drawable ms__arrow
 drawable ms__drawable
@@ -1584,6 +1596,7 @@ drawable rounded_edittext
 drawable rounded_message
 drawable rounded_message2
 drawable rounded_relativelayout
+drawable roundedbutton
 drawable rr
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1591,6 +1604,7 @@ drawable tooltip_frame_light
 drawable valide
 font amita
 font courgette
+font monoton
 font roboto
 font roboto_light
 id ALT
@@ -1701,6 +1715,11 @@ id beginning
 id blocking
 id bloodType
 id bottom
+id browser_actions_header_text
+id browser_actions_menu_item_icon
+id browser_actions_menu_item_text
+id browser_actions_menu_items
+id browser_actions_menu_view
 id btnRequst
 id btn_accept
 id btn_confirm
@@ -1766,6 +1785,7 @@ id doctor_phone
 id doctor_specialite
 id doctor_specialite5
 id doctor_view_title
+id donthavetext
 id dropdown_menu
 id edit
 id editText
@@ -1804,7 +1824,6 @@ id fragment_page_rootview
 id fragment_page_title
 id ghost_view
 id ghost_view_holder
-id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
@@ -1819,6 +1838,7 @@ id hideable
 id home
 id homeAsUp
 id home_text
+id hospitalName
 id hospitalisationRecycleView
 id icon
 id icon_group
@@ -1829,6 +1849,7 @@ id image
 id imageView
 id imageView10
 id imageView11
+id imageView12
 id imageView2
 id imageView3
 id imageView4
@@ -1939,6 +1960,7 @@ id phoneText
 id phone_number
 id pin
 id profile
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
@@ -2020,7 +2042,8 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
+id textView10
+id textView12
 id textView2
 id textView3
 id textView4
@@ -2029,6 +2052,7 @@ id textView6
 id textView7
 id textView8
 id textView9
+id textViewLogin
 id text_input_end_icon
 id text_input_start_icon
 id text_view_description
@@ -2160,7 +2184,10 @@ layout activity_patient_request_page
 layout activity_profile_doctor
 layout activity_profile_info
 layout activity_search_pat
+layout activity_send__o_t_p
 layout activity_test
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
 layout confirmed_appointements_item
 layout consultation_item
 layout custom_dialog
@@ -2262,6 +2289,9 @@ menu top_app_bar
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+mipmap logo_new
+mipmap logo_new_foreground
+mipmap logo_new_round
 plurals mtrl_badge_content_description
 string Failed_to_Load_data
 string NO_RESULT

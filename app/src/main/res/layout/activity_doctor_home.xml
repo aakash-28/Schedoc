@@ -56,7 +56,7 @@
 
     <Button
         android:id="@+id/btnRequst"
-        android:layout_width="118dp"
+        android:layout_width="150dp"
         android:layout_height="107dp"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="237dp"
@@ -64,9 +64,9 @@
         android:fontFamily="@font/roboto"
         android:gravity="bottom|center"
         android:paddingBottom="8dp"
-        android:text="Appointement"
+        android:text="Appointements"
         android:textAllCaps="false"
-        android:textColor="#22BE87"
+        android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,18 +77,18 @@
 
     <Button
         android:id="@+id/appointement"
-        android:layout_width="118dp"
+        android:layout_width="150dp"
         android:layout_height="107dp"
         android:layout_marginTop="168dp"
         android:layout_marginBottom="98dp"
         android:background="@drawable/button_home"
-        android:text=" Patient Request"
-        android:textColor="#22BE87"
-        android:textSize="14sp"
         android:fontFamily="@font/roboto"
-        android:textAllCaps="false"
         android:gravity="bottom|center"
         android:paddingBottom="8dp"
+        android:text=" Pending Requests"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.86"
@@ -98,7 +98,7 @@
 
     <Button
         android:id="@+id/listPatients"
-        android:layout_width="118dp"
+        android:layout_width="150dp"
         android:layout_height="107dp"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="237dp"
@@ -119,16 +119,16 @@
 
     <Button
         android:id="@+id/profile"
-        android:layout_width="118dp"
+        android:layout_width="150dp"
         android:layout_height="107dp"
         android:layout_marginTop="168dp"
         android:layout_marginBottom="98dp"
         android:background="@drawable/button_home"
-        android:text="Profile"
         android:fontFamily="@font/roboto"
         android:gravity="bottom|center"
-        android:textAllCaps="false"
         android:paddingBottom="8dp"
+        android:text="Profile"
+        android:textAllCaps="false"
         android:textColor="#22BE87"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/signOutBtn"
@@ -207,38 +207,36 @@
         android:layout_marginTop="383dp"
         android:elevation="19dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.229"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/profile"
+        app:layout_constraintStart_toStartOf="@+id/profile"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.037"
+        app:layout_constraintVertical_bias="0.03"
         app:srcCompat="@drawable/ic_profile" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:elevation="19dp"
         app:layout_constraintBottom_toBottomOf="@+id/btnRequst"
         app:layout_constraintEnd_toEndOf="@+id/btnRequst"
-        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="@+id/btnRequst"
         app:layout_constraintTop_toTopOf="@+id/btnRequst"
-        app:layout_constraintVertical_bias="0.403"
-        app:srcCompat="@drawable/ic_appointement" />
+        app:layout_constraintVertical_bias="0.297"
+        app:srcCompat="@drawable/calendaricon" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="62dp"
-        android:layout_height="61dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:elevation="19dp"
         app:layout_constraintBottom_toBottomOf="@+id/appointement"
         app:layout_constraintEnd_toEndOf="@+id/appointement"
-        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="@+id/appointement"
         app:layout_constraintTop_toTopOf="@+id/appointement"
-        app:layout_constraintVertical_bias="0.347"
-        app:srcCompat="@drawable/ic_request" />
+        app:layout_constraintVertical_bias="0.195"
+        app:srcCompat="@drawable/addappointment" />
 
     <ImageView
         android:id="@+id/imageView11"

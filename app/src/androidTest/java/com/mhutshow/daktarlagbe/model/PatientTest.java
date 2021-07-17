@@ -1,5 +1,8 @@
 package com.mhutshow.daktarlagbe.model;
 
+import com.mhutshow.daktarlagbe.model.Doctor;
+import com.mhutshow.daktarlagbe.model.Patient;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,5 +1,7 @@
 package com.mhutshow.daktarlagbe.model;
 
+import com.mhutshow.daktarlagbe.model.User;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;

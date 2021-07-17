@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mahed\\AndroidStudioProjects\\DaktarLagbe\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+            "outputFile": "E:\\WebD\\OOP\\DoctorAppointmentSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mahed\\.gradle\\caches\\transforms-2\\files-2.1\\25c1b6c9653e9b211189b5cc9434d44a\\appcompat-1.1.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\Aakash\\.gradle\\caches\\transforms-2\\files-2.1\\b2b8b75d6ae7c2fce37ef13b767dd64b\\appcompat-1.1.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

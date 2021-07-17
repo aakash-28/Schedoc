@@ -5,6 +5,7 @@ import android.view.View;
 import androidx.test.rule.ActivityTestRule;
 
 import com.mhutshow.daktarlagbe.R;
+import com.mhutshow.daktarlagbe.controller.MainActivity;
 
 import org.junit.After;
 import org.junit.Before;
