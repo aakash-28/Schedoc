@@ -39,6 +39,7 @@ MERGED from [com.jakewharton:butterknife:10.0.0] C:\Users\Aakash\.gradle\caches\
 MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\ef4fb0bb566fbda46a070d898d56e23c\jetified-spots-dialog-1.1\AndroidManifest.xml:2:1-13:12
 MERGED from [io.paperdb:paperdb:2.7.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\996bbb2c64273c4c1d3e0d8a4e357277\jetified-paperdb-2.7.1\AndroidManifest.xml:2:1-13:12
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\4ba6cc86c42c8fcc075b8524d78e99d4\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.joielechong:countrycodepicker:2.4.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\304bbc250034bd100708475b46d14dc2\jetified-countrycodepicker-2.4.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\f08d0c6f9f6857ca4dc985d08418111d\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\bf6eb2b9798bdb1bd5c9392383784f5e\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\46b9938001029c763fde916591b7d117\media-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -70,6 +71,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Aakash\.gradl
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\c7a8fc0f7c88cb32717d23caaf2cbc12\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\2364e99305fe5618d87efc463c42428b\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\169f9ad8c95b216718a7418f16dea17e\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [io.michaelrocks:libphonenumber-android:8.10.16] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\98cca9afcac5df3feee265cc03ddf28a\jetified-libphonenumber-android-8.10.16\AndroidManifest.xml:2:1-11:12
 INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-51:12
 INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-51:12
 INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml:2:1-51:12
@@ -345,6 +347,8 @@ MERGED from [io.paperdb:paperdb:2.7.1] C:\Users\Aakash\.gradle\caches\transforms
 MERGED from [io.paperdb:paperdb:2.7.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\996bbb2c64273c4c1d3e0d8a4e357277\jetified-paperdb-2.7.1\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\4ba6cc86c42c8fcc075b8524d78e99d4\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\4ba6cc86c42c8fcc075b8524d78e99d4\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.joielechong:countrycodepicker:2.4.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\304bbc250034bd100708475b46d14dc2\jetified-countrycodepicker-2.4.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.joielechong:countrycodepicker:2.4.1] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\304bbc250034bd100708475b46d14dc2\jetified-countrycodepicker-2.4.1\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\f08d0c6f9f6857ca4dc985d08418111d\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\f08d0c6f9f6857ca4dc985d08418111d\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\bf6eb2b9798bdb1bd5c9392383784f5e\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
@@ -407,6 +411,8 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Aakash\.gradle\cach
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\2364e99305fe5618d87efc463c42428b\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\169f9ad8c95b216718a7418f16dea17e\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\169f9ad8c95b216718a7418f16dea17e\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.michaelrocks:libphonenumber-android:8.10.16] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\98cca9afcac5df3feee265cc03ddf28a\jetified-libphonenumber-android-8.10.16\AndroidManifest.xml:7:5-9:41
+MERGED from [io.michaelrocks:libphonenumber-android:8.10.16] C:\Users\Aakash\.gradle\caches\transforms-2\files-2.1\98cca9afcac5df3feee265cc03ddf28a\jetified-libphonenumber-android-8.10.16\AndroidManifest.xml:7:5-9:41
 INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml
 INJECTED from E:\WebD\OOP\DoctorAppointmentSystem\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion

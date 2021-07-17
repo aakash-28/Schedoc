@@ -42,7 +42,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:hint="Enter your name"
-        android:textColorHint="#22BE87"
+        android:textColorHint="#000000"
         app:boxBackgroundMode="outline"
         app:boxStrokeColor="#22BE87"
         app:layout_constraintBottom_toBottomOf="parent"

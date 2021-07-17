@@ -79,10 +79,11 @@ public class FirstSigninActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String fullname, birtDay, tel, type, specialite;
+                String fullname, birtDay, tel, type, specialite,hospitalName;
                 fullname = fullName.getText().toString();
                 birtDay = birthday.getText().toString();
                 tel = teL.getText().toString();
+                hospitalName = hospitalname.getText().toString();
                 type = spinner.getSelectedItem().toString();
                 specialite = specialiteList.getSelectedItem().toString();
                 UserHelper.addUser(fullname, birtDay, tel, type);
@@ -91,7 +92,7 @@ public class FirstSigninActivity extends AppCompatActivity {
                     System.out.println("Add patient " + fullname + " to patient collection");
 
                 } else {
-                    DoctorHelper.addDoctor(fullname, "adress", tel, specialite);
+                    DoctorHelper.addDoctor(fullname, hospitalName, tel, specialite);
                 }
                 Intent k = new Intent(FirstSigninActivity.this, MainActivity.class);
                 startActivity(k);

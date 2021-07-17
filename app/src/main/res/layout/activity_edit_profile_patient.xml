@@ -10,23 +10,23 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#22BE87"
+        android:background="#F7D007"
         android:minHeight="?attr/actionBarSize"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:titleTextColor="#fff"
-        app:contentInsetLeft="0dp"
-        app:contentInsetStart="0dp">
+        app:titleTextColor="#fff">
+
         <TextView
             android:id="@+id/toolbar_title"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Edit My Profile"
-            android:textColor="@android:color/white"
-            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
             android:layout_gravity="center"
-            />
+            android:text="Edit My Profile"
+            android:textColor="#000000" />
     </androidx.appcompat.widget.Toolbar>
 
 
@@ -40,7 +40,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:hint="Enter your name"
-        android:textColorHint="#22BE87"
+        android:textColorHint="#9e9e9e"
         app:boxBackgroundMode="outline"
         app:boxStrokeColor="#22BE87"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -54,7 +54,8 @@
             android:id="@+id/nameText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
+            android:textColorHighlight="#605F5F"
+            android:textColorLink="#FFFFFF" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -67,7 +68,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:hint="Enter your phone"
-        android:textColorHint="#22BE87"
+        android:textColorHint="#9e9e9e"
         app:boxBackgroundMode="outline"
         app:boxStrokeColor="#22BE87"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -95,7 +96,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:hint="Enter your address"
-        android:textColorHint="#22BE87"
+        android:textColorHint="#9e9e9e"
         app:boxBackgroundMode="outline"
         app:boxStrokeColor="#22BE87"
         app:layout_constraintBottom_toBottomOf="parent"
